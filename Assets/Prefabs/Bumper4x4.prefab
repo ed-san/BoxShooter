@@ -61,7 +61,6 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!33 &3304252
 MeshFilter:
@@ -80,7 +79,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4, y: 1, z: 4}
+  m_Size: {x: 4, y: 1.8, z: 4}
   m_Center: {x: 0, y: -0.4999997, z: 0}
 --- !u!1001 &100100000
 Prefab:
