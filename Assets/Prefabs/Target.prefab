@@ -23,6 +23,8 @@ GameObject:
   - component: {fileID: 65206989640418046}
   - component: {fileID: 23477137776471088}
   - component: {fileID: 114384130326562758}
+  - component: {fileID: 114227313569426112}
+  - component: {fileID: 114594318587209576}
   m_Layer: 0
   m_Name: Target
   m_TagString: Untagged
@@ -93,6 +95,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114227313569426112
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1949312002817642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20a926d2dbaf347e29cb9c7dc7bf85da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreAmount: 0
+  timeAmount: 0
+  explosionPrefab: {fileID: 0}
 --- !u!114 &114384130326562758
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -107,3 +123,16 @@ MonoBehaviour:
   motionState: 1
   spinSpeed: 180
   motionMagnitude: 0.1
+--- !u!114 &114594318587209576
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1949312002817642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47af3168550784e3a932e53789748764, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exitAfterSeconds: 10
+  exitAnimationSeconds: 1
